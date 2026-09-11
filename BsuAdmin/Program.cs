@@ -21,16 +21,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend", policy =>
     {
         policy.WithOrigins(
-            "http://192.168.0.103:5000",   // your frontend IP
-            "http://192.168.1.176:5000",
-            "http://192.168.0.106:5000",
-            "http://192.168.0.102:5000",
-            "http://172.20.10.2:5000",
-            "http://172.16.246.94:5000",
-            "http://192.168.0.100:5000",
-            "http://192.168.0.108:5000",
-            "http://172.16.214.46:5000",// optional: another frontend device
-            "http://192.168.0.101:5000"
+            ""
         )
         .AllowAnyHeader()
         .AllowAnyMethod()
