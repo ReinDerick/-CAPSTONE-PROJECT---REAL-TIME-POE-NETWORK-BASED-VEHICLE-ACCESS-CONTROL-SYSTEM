@@ -1,0 +1,6 @@
+@BsuAdmin_HostAddress = http://localhost:5025
+
+GET {{BsuAdmin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
